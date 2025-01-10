@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        table,tr,td,th{
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        #yellow{
+            background-color: yellow;
+        }
+
+        #blue{
+            background-color: lightblue;
+        }
+
+        #green{
+            background-color: lightgreen;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <table>
+        <thead>
+        <tr>
+            <th rowspan="3">
+                Day
+            </th>
+            <th colspan="3">
+                Seminar
+            </th>
+        </tr>
+
+        <tr>
+            <th colspan="2">
+                Schedule
+            </th>
+            <th colspan="" rowspan="2">Topic</th>
+        </tr>
+        <tr>
+            <th>Begin</th>
+            <th>End</th>
+        </tr>
+    </thead>
+
+    <tbody>
+
+        <tr>
+            <td rowspan="2">
+                Monday
+            </td>
+            <td id="yellow" rowspan="2">
+                8:00 a.m
+            </td>
+            <td id="blue" rowspan="2">
+                5:00 p.m
+            </td>
+            <td>Introduction to XML</td>
+            <br>
+        </tr>
+        <tr>
+            <td>
+                Validity DTD Relax NG
+            </td>
+        </tr>
+
+        <tr>
+            <td rowspan="3" >
+                Tuesday
+            </td>
+            <td id="yellow">
+                8:00 a.m
+            </td>
+            <td id="yellow">
+                11:00 a.m
+            </td>
+            <td rowspan="1">
+                XPath
+            </td>
+        </tr>
+        <tr>
+            <td id="yellow">
+                11:00 a.m 
+            </td>
+            <td id="green">
+                2:00 p.m 
+            </td>
+            <td colspan="2" rowspan="2">
+                XSL Transformation
+            </td>
+           
+            
+        </tr>
+        <tr>
+            <td id="green">
+                2:00 p.m 
+            </td>
+            <td id="blue">
+                5:00 p.m 
+            </td>
+            
+           
+        </tr>
+        <tr>
+            <td>
+                Wednesday
+            </td>
+            <td id="yellow">
+                8:00 a.m 
+            </td>
+            <td id="green" >
+                12:00 p.m 
+            </td>
+            <td>
+                XSL Formatting Objects
+            </td>
+        </tr>
+       
+        
+
+    </tbody>
+
+    </table>
+
+    
+</body>
+</html>
