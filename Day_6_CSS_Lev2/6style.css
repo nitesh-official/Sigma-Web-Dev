@@ -1,0 +1,21 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border: 1px solid black;
+}
+
+#Rotate{
+        margin: 30px;
+        transform: rotateZ(-45deg);   /* Use this property without using perspespective  */
+}
+
+#Translated{
+            margin: 100px;
+            transform: perspective(30px) translateZ(-20px);    /* Use perspective for use this property  */
+}
+
+#Scaled{
+    margin-left: 200px;
+    transform: perspective(350px) scaleZ(4) rotateX(30deg) rotateY(45deg) ; /* Use perspective for use this property  */
+}

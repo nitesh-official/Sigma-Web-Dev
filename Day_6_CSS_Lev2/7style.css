@@ -1,0 +1,37 @@
+.box{
+    border: 2px solid black;
+    width: 300px;
+    height: 300px;
+    font-size: 18px;
+    font-weight: 900px;
+    margin: 10px;
+    color: whitesmoke;
+    background-image: linear-gradient(blue,skyblue,pink,red);
+    position: relative;
+}
+#span1{
+     position: absolute;
+     top: 0;
+     left: 0;
+}
+#span2{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+#span3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#span4{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+#span5{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}

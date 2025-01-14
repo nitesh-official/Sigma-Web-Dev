@@ -1,0 +1,98 @@
+     
+               /* Use of Liner Gradient */
+
+.box{
+    border: 1px solid black;
+    text-align: center;
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+    font-weight: 900;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+#box1{
+     background-image: linear-gradient( red ,blue); /*For top to bottom by defalut*/
+}
+
+#box2{
+     background-image: linear-gradient(to Top, red ,blue); /*For Bottom to top */
+}   
+#box3{
+     background-image: linear-gradient(to right, red ,blue); /*For left to right */
+}
+
+#box4{
+     background-image: linear-gradient(210deg, red ,blue,green); /* using degree for rotataion */
+}
+#box5{
+     background-image: linear-gradient(to top left, rgba(255,0,0,0),rgba(0,0,255,1));  /*For to top left and using transparency*/
+}
+
+            /* Use of radial gradient */
+
+.div{
+    border: 1px solid black;
+    text-align: center;
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+    font-weight: 900;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+#div1{
+      background-image: radial-gradient(red,blue,orange);
+}
+#div2{
+    background-image: radial-gradient(circle,pink,blue);  
+}
+#div3{
+     background-image: radial-gradient(yellow 5%,orange 10%,red 50%); 
+}
+#div4{
+     background-image: radial-gradient(ellipse,yellow 10%,red 20%,blue 40%,pink 50%); 
+}
+
+            /* Use of conic gradient */
+
+ .class{
+    border: 1px solid black;
+    text-align: center;
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+    font-weight: 900;
+    display: inline-block;
+    box-sizing: border-box;
+    
+}
+
+#class1{
+    background: conic-gradient( 
+     red 6deg, orange 6deg 18deg, yellow 18deg 45deg, 
+     green 45deg 110deg, blue 110deg 200deg, purple 200deg);
+}
+#class2{
+     background-image: conic-gradient(
+          red,
+          white,
+          yellow,
+          blue,
+          orange,
+          black,
+          pink)
+} 
+
+
+           /* Indian flag */
+ .class3{
+         border: 1px solid black;
+         text-align: center;
+         height: 150px;
+         width: 150px;
+         margin: 30px;
+         background-image: linear-gradient( orange, white, green); /*For top to bottom by defalut*/
+        }

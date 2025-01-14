@@ -1,0 +1,37 @@
+            /* Text Shadow Effect */
+h2{
+    text-shadow: 2px 2px 2px red;
+    text-shadow: 2px 2px 2px red, 5px 5px 5px green; /* To adding multiple shadow in a text */
+}
+
+            /*  Box shadow effect */
+
+.box1{
+        width: 150px;
+        height: 100px;
+        background-color: plum;
+        text-align: center;
+        padding: 5px;
+        box-shadow: 10px 10px 10px ; /* By default shadow color is same to text color */
+}
+
+.box2{
+    width: 150px;
+    height: 100px;
+    background-color: dimgray;
+    text-align: center;
+    padding: 5px;
+    margin: 20px;
+    box-shadow: 10px 10px 10px brown,-10px -10px 10px green ; /* Multiple shadow with diffrent color and To change direction (use negative value) */
+}
+
+        /* Adiing a boder using shadow */
+
+.box3{
+        width: 150px;
+        height: 100px;
+        background-color: red;
+        text-align: center;
+        padding: 5px;
+        box-shadow: 1px 1px,-1px -1px ;
+}
