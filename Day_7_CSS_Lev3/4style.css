@@ -1,0 +1,33 @@
+.container1{
+    border: 1px solid green;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    justify-content: flex-end;
+    justify-content: center;
+
+}
+
+.container2{
+    border: 1px solid green;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-content: space-between;
+    justify-content: space-evenly;  
+
+}
+
+.box-1{
+    width: 100px;
+    border: 1px solid brown ;
+    background-color: aqua;
+}
+
+.box-2{
+    width: 100px;
+    border: 1px solid brown ;
+    background-color: teal;
+}

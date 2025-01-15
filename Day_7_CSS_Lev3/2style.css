@@ -1,0 +1,30 @@
+.container1{
+    border: 2px solid green;
+    height: 200px;
+    display: flex;
+
+    flex-direction: row; /* By default */
+    flex-direction: row-reverse;
+
+}
+
+.container2{
+    border: 2px solid green;
+    height: 200px;
+    display: flex;
+
+    flex-direction: column;
+    flex-direction: column-reverse; 
+}
+
+.box-1{
+      border: 1px solid brown;
+      background-color: aqua;
+    
+}
+
+.box-2{
+    border: 1px solid brown;
+    background-color: teal;
+
+}

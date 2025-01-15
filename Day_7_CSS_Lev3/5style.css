@@ -1,0 +1,46 @@
+.container1{
+    border: 1px solid green;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-items: flex-end;
+    align-items: center;
+    
+}
+
+.container2{
+    border: 1px solid green;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: stretch ; /* By default */
+    align-items: baseline;
+
+}
+
+.container3{
+    border: 1px solid green;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+
+    /* To align a content in center */
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box-1{
+    width: 100px;
+    border: 1px solid brown ;
+    background-color: aqua;
+}
+
+.box-2{
+    width: 100px;
+    border: 1px solid brown ;
+    background-color: teal;
+}
