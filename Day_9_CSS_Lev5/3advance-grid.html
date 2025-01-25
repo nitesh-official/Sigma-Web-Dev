@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advance-Grid</title>
+    <link rel="stylesheet" href="3style.css">
+</head>
+<body>
+    <h1 align="center">Advance-Grid Concepts:-</h1>
+    <h2><pre>
+              grid-auto-rows:minmax(); => Used when number of rows are undefined.
+             <small>
+                 Example:- .container{
+                    height: 600px;
+                    border: 1px solid black;
+                    background-color: yellow;
+                    display: grid;
+                    gap: 10px;
+                    grid-template-columns: repeat(4,1fr);
+                    grid-auto-rows: minmax(100px, auto);
+                    }
+                   .box{
+                    border: 1px solid black;
+                    background-color: aqua;
+                    }
+             </small> 
+
+    </pre></h2>
+    <div class="container">
+        <div class="box" id="header">Header</div>
+        <div class="box" id="sidebar">Sidebar</div>
+        <div class="box" id="content">Content</div>
+        <div class="box" id="footer">Footer</div>
+
+        <!-- many number of item can be added later-->
+
+        <div class="box" id="content">Content1</div>
+        <div class="box" id="footer">Footer2</div>
+        <div class="box" id="content">Content3</div>
+        <div class="box" id="footer">Footer4</div>
+        <div class="box" id="content">Content1</div>
+        <div class="box" id="footer">Footer2</div>
+        <div class="box" id="content">Content3</div>
+        <div class="box" id="footer">Footer4</div>
+        <div class="box" id="content">Content1</div>
+        <div class="box" id="footer">Footer2</div>
+        <div class="box" id="content">Content3</div>
+        <div class="box" id="footer">Footer4</div>
+        
+    </div>
+</body>
+</html>

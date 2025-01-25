@@ -1,0 +1,44 @@
+.container{
+    height: 500px;
+    width: 502px;
+    border: 1px solid black;
+    background-color: yellow;
+    display: grid;
+    grid-template-columns: 100px 400px;
+    grid-template-rows: 30px 1fr 30px;
+    gap: 2px;
+    grid-template-areas: 
+    "hd hd"
+    "side main"
+    "ft ft";
+}
+.box{
+    border: 1px solid black;
+    background-color: aqua;
+}
+#header{
+    grid-area: hd;
+}
+#footer{
+    grid-area: ft;
+}
+#side{
+    grid-area: side;
+}
+#content{
+    grid-area: main;
+}
+        /* Adding Media Queries For Multiple Devices Responsiveness  */
+
+@media(max-width:350px){
+    .container{
+        grid-template-columns: 500px;
+        grid-template-rows: 30px 100px 1fr 30px;
+        gap: 2px;
+        grid-template-areas: 
+        "hd"
+        "side"
+        "main"
+        "ft";
+    }
+}
