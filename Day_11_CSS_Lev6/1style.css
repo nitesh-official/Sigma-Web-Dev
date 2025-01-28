@@ -1,0 +1,25 @@
+:root{
+
+    /* Using Global Variables */
+
+    --color1: rgb(255, 0, 106);
+    
+}
+.container{
+    height: 500px;
+    width: 500px;
+    border: 1px solid black;
+    background-color: var(--color1);
+}
+.box{
+    /* Using math function */
+    
+    height: max(20%,100px);           
+    width: min(40%,200px);
+    border: 1px solid black;
+
+    /* Using Local Variables */
+
+    --color2: rgb(0, 195, 255);
+    background-color: var(--color2);
+}
