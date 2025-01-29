@@ -3,9 +3,13 @@
     width: 400px;
     border: 2px solid black;
     background-color: teal;
+    margin: 20px;
     display: flex;
     /* justify-content: center;
     align-items: center; */
+}
+.theory{
+    margin: 20px;
 }
 .box{
     height: 150px;
@@ -30,7 +34,7 @@
     transition: all 1s cubic-bezier(0.39, 0.575, 0.565, 1) 0.3s; /* short hand attribute to use many transition effects at a time but we use it raerly becz its is not a good practice  */
 }
 .box:hover{
-    transform: rotate(360deg) scale(1.08) translateX(120px) translateY(100px);
+    transform: rotate(360deg) scale(1.2) translateX(120px) translateY(100px);
     background-color: crimson;
     
 }

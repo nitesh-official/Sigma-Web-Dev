@@ -7,6 +7,61 @@
     <link rel="stylesheet" href="3style.css">
 </head>
 <body>
+    <div><h2>Animation & Keyframes:- </h2>
+    <ul><li>animation-name</li>
+    <li>animation-duration</li>
+    <li>animation-iteration-count</li>
+    <li>animation-fill-mode</li>
+    <li>animation-timing-function</li>
+    <li>animation-delay</li>
+    <li>animation-duration</li></ul>
+    <pre>Example:- <strong> nitesh;  <!-- animation-name -->
+        animation-duration: 3s;
+        animation-iteration-count: 1;
+        animation-timing-function: ease;
+        animation-delay: 0.3s;
+        animation-fill-mode: forwards;
+        animation-direction: reverse; </strong></pre>
+        <br>
+    <h3>Keyframes:-</h3>
+    <pre><strong>
+        Example:-  /* Method - 1 to using keyframe  */
+
+         @keyframes nitesh {
+
+            from{
+                width: 150px;
+                background-color:aqua;
+            }
+            
+            to{
+                width: 100%;
+                background-color: crimson;
+            }
+    
+        }
+    
+                /* Method - 2 to using keyframe  */
+    
+                @keyframes nitesh {
+                    
+                    33%{
+                        width: 33%;
+                        background-color:orange;
+                    }
+                    
+                    66%{
+                        width: 66%;
+                        background-color: white;
+                    }
+    
+                    100%{
+                        width: 100%;
+                        background-color: green;
+                    }
+                }
+            </strong></pre>
+     </div>
     <div class="container">
         <div class="box">
              <div>I AM BOX</div>
